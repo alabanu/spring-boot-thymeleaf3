@@ -13,7 +13,6 @@ public class IndexController {
 
 	@RequestMapping("index.html")
 	public String index(ModelMap model) {
-		model.addAttribute("hello", "world");
 		return "index";
 	}
 }
